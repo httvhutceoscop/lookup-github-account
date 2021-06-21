@@ -1,5 +1,7 @@
 # lookup-github-account
 
+[Demo](https://httvhutceoscop.github.io/lookup-github-account/)
+
 ## Project setup
 ```
 yarn install
@@ -18,6 +20,11 @@ yarn build
 ### Lints and fixes files
 ```
 yarn lint
+```
+
+### Deploy to gh-pages
+```
+yarn deploy
 ```
 
 ### Customize configuration
