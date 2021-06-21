@@ -1,24 +1,33 @@
 {
   "name": "lookup-github-account",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
   "devDependencies": {
+    "@babel/polyfill": "^7.11.5",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
+    "bootstrap": "^4.5.2",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "popper.js": "^1.16.1",
+    "prettier": "^2.2.1",
+    "sass": "^1.35.1",
+    "sass-loader": "^10.1.1",
+    "vue-cli-plugin-bootstrap-vue": "~0.7.0"
   },
   "eslintConfig": {
     "root": true,
@@ -33,6 +42,9 @@
       "parser": "babel-eslint"
     },
     "rules": {}
+  },
+  "prettier": {
+    "tabWidth": 4
   },
   "browserslist": [
     "> 1%",
